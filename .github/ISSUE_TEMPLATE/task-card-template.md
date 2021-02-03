@@ -1,7 +1,7 @@
 ---
 name: Task Card Template
 about: temeplete for task cards
-title: "[Task Card]"
+title: ''
 labels: ''
 assignees: ''
 
