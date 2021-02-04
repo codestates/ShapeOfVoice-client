@@ -1,46 +1,70 @@
-## Shape Of Voice
+# Getting Started with Create React App
 
-![KakaoTalk_Image_2021-02-03-16-52-56](https://user-images.githubusercontent.com/68832639/106718270-2c2eb580-6644-11eb-807e-91586db660b6.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
+In the project directory, you can run:
 
-'내 목소리가 형상화되면 어떤 모습일까?' 궁금하지 않으셨나요?
+### `yarn start`
 
-당신의 목소리가 얼마나 아름다운지 눈으로 확인해보세요!
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-원하는 이미지를 나타내기 위해 다양한 시도를 해 볼 수도 있을 겁니다.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-마음에 드는 이미지를 만드셨다면 게시판에 올려 자랑해 주세요~
+### `yarn test`
 
-다른 사람들은 어떤 이미지를 만들었는지 보고,
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-좋아요 표시도 할 수 있습니다!
+### `yarn build`
 
-**"삶에 감성을 더해주는 공감각적 경험" Shape Of Voice** 입니다.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 이런 기술들이 사용되었습니다!
-### Front
-   * 작성예정
-### Back
-   * 작성예정
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Architecture
-### Client-Side flow chart[STATIC]
-![client-folwchart](https://user-images.githubusercontent.com/72539723/106772988-eabdfa80-6683-11eb-98d1-f71017a48c3f.png)
+### `yarn eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Server-Side flow chart[STATIC]
-![KakaoTalk_Photo_2021-02-04-01-39-27](https://user-images.githubusercontent.com/68832639/106779917-cd405f00-668a-11eb-9cc9-c0d826ca657b.png)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-### Server-side Voice upload flow chart[STATIC]
-![server-flowchart_voice](https://user-images.githubusercontent.com/72539723/106774023-0c6bb180-6685-11eb-9a4f-d3ffc7a9b48f.png)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Members
-   * 작성예정
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## project details
-[WIKI](https://github.com/codestates/ShapeOfVoice-client/wiki)
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
