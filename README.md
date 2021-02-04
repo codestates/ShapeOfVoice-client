@@ -27,7 +27,7 @@
 
 ## Architecture
 ### Client-Side flow chart[STATIC]
-![client-folwchart](https://user-images.githubusercontent.com/72539723/106772988-eabdfa80-6683-11eb-98d1-f71017a48c3f.png)
+![KakaoTalk_Photo_2021-02-04-13-43-25](https://user-images.githubusercontent.com/68832639/106845796-07434c80-66ef-11eb-97dc-f8bf173d36a4.png)
 
 
 ### Server-Side flow chart[STATIC]
