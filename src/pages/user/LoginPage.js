@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Link, withRouter } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { loginUser } from '../../actions';
+import { userLogin } from '../../actions';
 
 const LoginPage = (props) => {
   const state = useSelector((state) => state.userReducer);
@@ -49,7 +49,7 @@ const LoginPage = (props) => {
       email: 'test@test.com',
       is_signed_up: true,
     };
-    dispatch(loginUser(userInfo));
+    dispatch(userLogin(userInfo));
   };
   return (
     <div>

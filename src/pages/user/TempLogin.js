@@ -37,6 +37,11 @@ const TempLogin = (props) => {
   };
   return (
     <div>
+    <div>
+      <Link to="/">
+        <button>뒤로가기</button>
+      </Link>
+    </div>
       <form onSubmit={(e) => e.preventDefault()}>
         <input
           type="text"
@@ -46,7 +51,6 @@ const TempLogin = (props) => {
         />
       </form>
       <button onClick={handleTempLogin}>로그인</button>
-    </div>
   );
 };
 
