@@ -1,18 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 const nav = () => {
-
-
-
-
-
-
-
-
-
-
-
-
   return (
     <>
       <div>
@@ -25,9 +13,7 @@ const nav = () => {
         <Link to="/mypage">
           <button>마이페이지</button>
         </Link>
-        <Link to="/signout">
-          <button>로그아웃</button>
-        </Link>
+          <button onClick={handleLogout}>로그아웃</button>
       </div>
     </>
   );
