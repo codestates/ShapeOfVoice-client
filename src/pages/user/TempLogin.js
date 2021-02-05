@@ -32,16 +32,16 @@ const TempLogin = (props) => {
       nickName: 'non-members',
       is_signed_up: false,
     };
-    dispatch(loginUser(userInfo));
+    dispatch(userLogin(userInfo));
     props.history.push('/');
   };
   return (
     <div>
-    <div>
-      <Link to="/">
-        <button>뒤로가기</button>
-      </Link>
-    </div>
+      <div>
+        <Link to="/">
+          <button>뒤로가기</button>
+        </Link>
+      </div>
       <form onSubmit={(e) => e.preventDefault()}>
         <input
           type="text"
@@ -51,6 +51,7 @@ const TempLogin = (props) => {
         />
       </form>
       <button onClick={handleTempLogin}>로그인</button>
+    </div>
   );
 };
 
