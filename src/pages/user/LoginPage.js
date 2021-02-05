@@ -1,7 +1,11 @@
 import React from 'react';
 
 const LoginPage = () => {
-  return <div>로그인페이지</div>;
+  return (
+    <div>
+      <Link to="signup">회원가입</Link>
+    </div>
+  );
 };
 
 export default LoginPage;
