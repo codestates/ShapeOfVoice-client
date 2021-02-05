@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { loginUser } from '../../actions';
 
-const LoginPage = () => {
+const LoginPage = (props) => {
   const state = useSelector((state) => state.userReducer);
   console.log(state);
   const dispatch = useDispatch();
@@ -32,7 +32,7 @@ const LoginPage = () => {
     //state 확인
     //userInfo 는 axios.post 요청이 성공적으로 수행됬을때
     /*
-      axios.post("https://localhost:4000/user/login",{
+      axios.post("http://localhost:4000/user/login",{
         email : email, 
         password : password
       },{
@@ -79,4 +79,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default withRouter(LoginPage);

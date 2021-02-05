@@ -6,6 +6,7 @@ const userReducer = (state = initialState, action) => {
       return {
         ...state,
         users: [action.payload],
+        isLogin: true,
       };
     default:
       return state;

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useSelector } from 'react-redux';
 import { Route, Switch, withRouter } from 'react-router-dom';
 import Nav from './components/Nav';
 import AddBoard from './pages/board/AddBoard';
@@ -11,7 +12,9 @@ import SignUp from './pages/user/SignUp';
 import TempLogin from './pages/user/TempLogin';
 
 const App = () => {
-  const [isLogin, setLogin] = useState(false);
+  const state = useSelector((state) => state.userReducer);
+
+  const { isLogin } = state;
 
   return isLogin ? (
     <div>
