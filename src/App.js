@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useSelector } from 'react-redux';
 import { Route, Switch, withRouter } from 'react-router-dom';
 import Nav from './components/Nav';
 import AddBoard from './pages/board/AddBoard';
