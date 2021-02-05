@@ -11,7 +11,9 @@ import SignUp from './pages/user/SignUp';
 import TempLogin from './pages/user/TempLogin';
 
 const App = () => {
-  const [isLogin, setLogin] = useState(false);
+  const state = useSelector((state) => state.userReducer);
+
+  const { isLogin } = state;
 
   return isLogin ? (
     <div>
