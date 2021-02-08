@@ -9,6 +9,16 @@ const boardReducer = (state = boardState, action) => {
         board: [...action.payload],
       };
     }
+
+    case GET_BOARD_DETAIL: {
+      let copyBoard = [...state.board];
+      let boardDetail = copyBoard.filter((el) => el.id === action.payload);
+      return {
+        ...state,
+        boardDetail,
+      };
+    }
+
     default:
       return state;
   }
