@@ -1,6 +1,6 @@
 ## Shape Of Voice
 
-![KakaoTalk_Image_2021-02-03-16-52-56](https://user-images.githubusercontent.com/68832639/106718270-2c2eb580-6644-11eb-807e-91586db660b6.png)
+![스크린샷 2021-02-05 오후 6 22 33](https://user-images.githubusercontent.com/68832639/107164731-986a3a00-69f3-11eb-9e22-b1d819c79c1f.png)
 
 
 
