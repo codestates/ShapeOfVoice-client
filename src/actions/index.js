@@ -2,6 +2,7 @@
 export const USER_LOGIN = 'USER_LOGIN';
 export const USER_LOGOUT = 'USER_LOGOUT';
 
+export const GET_BOARD_DETAIL = 'GET_BOARD_DETAIL';
 export const LOAD_BOARD_LIST = 'LOAD_BOARD_LIST';
 
 export const userLogin = (userInfo) => {
@@ -24,5 +25,12 @@ export const loadBoardList = (boardList) => {
   return {
     type: LOAD_BOARD_LIST,
     payload: boardList,
+  };
+};
+
+export const getBoardDetail = (id) => {
+  return {
+    type: GET_BOARD_DETAIL,
+    payload: id,
   };
 };
