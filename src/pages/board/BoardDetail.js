@@ -45,17 +45,17 @@ const BoardDetail = (props) => {
     setTitle(e.target.value);
   };
 
-  // const handleDeleteBoard = () => {
-  //   // axios.delete('http://localhost:4000/board', {
-  //   //   data: {
-  //   //     id,
-  //   //   },
-  //   //   withCredentials: true,
-  //   //   'Content-Type': 'application/json',
-  //   // });
-  //   dispatch(deleteBoard(id));
-  //   props.history.push('/board');
-  // };
+  const handleDeleteBoard = () => {
+    // axios.delete('http://localhost:4000/board', {
+    //   data: {
+    //     id,
+    //   },
+    //   withCredentials: true,
+    //   'Content-Type': 'application/json',
+    // });
+    dispatch(deleteBoard(id));
+    props.history.push('/board');
+  };
 
   return (
     <div>
