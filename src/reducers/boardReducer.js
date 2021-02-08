@@ -1,4 +1,9 @@
-import { LOAD_BOARD_LIST } from '../actions';
+import {
+  LOAD_BOARD_LIST,
+  GET_BOARD_DETAIL,
+  UPDATE_BOARD,
+  DELETE_BOARD,
+} from '../actions';
 import { boardState } from './initialState';
 
 const boardReducer = (state = boardState, action) => {
@@ -18,7 +23,7 @@ const boardReducer = (state = boardState, action) => {
         boardDetail,
       };
     }
-      
+
     case UPDATE_BOARD: {
       console.log(action.payload);
       let copyBoard = [...state.board];
@@ -28,6 +33,17 @@ const boardReducer = (state = boardState, action) => {
       return {
         ...state,
         board: copyBoard,
+      };
+    }
+
+    case DELETE_BOARD: {
+      let copyBoard = [...state.board];
+      copyBoard = copyBoard.filter((el) => el.id !== action.payload);
+      console.log(copyBoard);
+      return {
+        ...state,
+        board: copyBoard,
+        boardDetail: [],
       };
     }
 
