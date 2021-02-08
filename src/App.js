@@ -12,9 +12,9 @@ import SignUp from './pages/user/SignUp';
 import TempLogin from './pages/user/TempLogin';
 
 const App = () => {
-  const state = useSelector((state) => state.userReducer);
+  const state = useSelector((state) => state);
 
-  const { isLogin } = state;
+  const { isLogin } = state.userReducer;
 
   return isLogin ? (
     <div>
