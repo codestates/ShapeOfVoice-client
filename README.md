@@ -27,7 +27,7 @@
 
 ## Architecture
 ### Client-Side flow chart[STATIC]
-![스크린샷 2021-02-05 오후 6 22 33](https://user-images.githubusercontent.com/68832639/107164731-986a3a00-69f3-
+![스크린샷 2021-02-05 오후 6 22 33](https://user-images.githubusercontent.com/68832639/107164731-986a3a00-69f3-11eb-9e22-b1d819c79c1f.png)
 
 
 ### Server-Side flow chart[STATIC]
