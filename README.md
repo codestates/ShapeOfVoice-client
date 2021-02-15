@@ -8,8 +8,6 @@
 
 당신의 목소리가 얼마나 아름다운지 눈으로 확인해보세요!
 
-원하는 이미지를 나타내기 위해 다양한 시도를 해 볼 수도 있을 겁니다.
-
 마음에 드는 이미지를 만드셨다면 게시판에 올려 자랑해 주세요~
 
 다른 사람들은 어떤 이미지를 만들었는지 보고,
@@ -21,13 +19,13 @@
 
 ## 이런 기술들이 사용되었습니다!
 ### Front
-   * 작성예정
+   * React, React-Hooks, axios, Redux
 ### Back
-   * 작성예정
+   * NODE js, EXPRESS, MYSql, Sequelize
 
 ## Architecture
 ### Client-Side flow chart[STATIC]
-![스크린샷 2021-02-05 오후 6 22 33](https://user-images.githubusercontent.com/68832639/107164731-986a3a00-69f3-11eb-9e22-b1d819c79c1f.png)
+![KakaoTalk_Photo_2021-02-15-10-50-17](https://user-images.githubusercontent.com/68832639/107897381-3cb42980-6f7c-11eb-8666-6f57a520ee20.png)
 
 
 ### Server-Side flow chart[STATIC]
@@ -40,7 +38,7 @@
 
 
 ## Members
-   * 작성예정
+   * 김아윤, 성석민, 성석원, 임관우
 
 ## project details
 [WIKI](https://github.com/codestates/ShapeOfVoice-client/wiki)
